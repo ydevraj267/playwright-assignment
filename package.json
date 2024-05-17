@@ -1,0 +1,27 @@
+{
+  "name": "playwright-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allTest": "npx playwright test",
+    "showReport": "npx playwright show-report",
+    "apiTest": "npx playwright test tests/api/",
+    "uiTest": "npx playwright test tests/web/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ydevraj267/playwright-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydevraj267/playwright-assignment/issues"
+  },
+  "homepage": "https://github.com/ydevraj267/playwright-assignment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  }
+}
