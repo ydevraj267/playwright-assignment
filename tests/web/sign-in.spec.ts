@@ -112,7 +112,7 @@ test.describe('BBC Sign-in Test', () => {
         expect(errorMessage).toBe(ErrorMessages.InvalidPasswordOnlyLetterErrorMessage);
     });
 
-    test.skip('Sign in with invalid password', async ({ page }) => {
+    test('Sign in with invalid password', async ({ page }) => {
         await signInPage.fillEmailOrUsername('dev.d267@gmail.com');
         await signInPage.clickContinueButton();
         await signInPage.fillPassword('qwerty@123');
